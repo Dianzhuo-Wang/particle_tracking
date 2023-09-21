@@ -1,6 +1,6 @@
 # Particle Tracking for Passive Microrheology 
 
-This particle tracking software was designed to enhance the efficiency of 2-D particle tracking specifically for passive microrheology in Weitz lab. However, it also could be used for other purposes that requires accurate particle tracking. It's based on the MATLAB code originally developed by Prof. Maria Kilfoil and has been further optimized to work more swiftly and effectively, especially with large TIFF files. Notably, this tool outperforms the FIJI tracking package in both speed and accuracy and is fine-tuned to run parallelly on a Linux cluster.
+This particle tracking software was designed to enhance the efficiency of 2-D particle tracking for passive microrheology in Weitz lab. However, it also could be used for other purposes that requires accurate particle tracking. It's based on the MATLAB code originally developed by Prof. Maria Kilfoil and has been further optimized to work more swiftly and effectively, especially with large TIFF files. Notably, this tool outperforms the FIJI tracking package in both speed and accuracy and is fine-tuned to run parallelly on a Linux cluster.
 ## How to Cite
 Our tool has been developed and played instrumental role in the following research works:
 - Wu, Huayin, et al. ["Effect of divalent cations on the structure and mechanics of vimentin intermediate filaments."](https://www.cell.com/biophysj/pdf/S0006-3495(20)30417-3.pdf) _Biophysical Journal_, 119.1 (2020): 55-64.
