@@ -1,13 +1,15 @@
 # Particle Tracking for Passive Microrheology in Weitz Lab
 
-This particle tracking software was designed to enhance the efficiency of 2-D particle tracking specifically for passive microrheology in Weitz lab. However, it also could be used for other purposes that require accurate particle tracking. It's based on the MATLAB code originally developed by Prof. Maria Kilfoil and has been further optimized to work more swiftly and effectively, especially with large TIFF files. Notably, this tool outperforms the FIJI tracking package in both speed and accuracy and is fine-tuned to run parallelly on a Linux cluster.
-
+This particle tracking software was designed to enhance the efficiency of 2-D particle tracking specifically for passive microrheology in Weitz lab. However, it also could be used for other purposes that requires accurate particle tracking. It's based on the MATLAB code originally developed by Prof. Maria Kilfoil and has been further optimized to work more swiftly and effectively, especially with large TIFF files. Notably, this tool outperforms the FIJI tracking package in both speed and accuracy and is fine-tuned to run parallelly on a Linux cluster.
+## How to Cite
 Our tool has been developed and played instrumental role in the following research works:
 - Wu, Huayin, et al. ["Effect of divalent cations on the structure and mechanics of vimentin intermediate filaments."](https://www.cell.com/biophysj/pdf/S0006-3495(20)30417-3.pdf) _Biophysical Journal_, 119.1 (2020): 55-64.
   
 - Shen, Yinan, et al. ["Effects of vimentin intermediate filaments on the structure and dynamics of in vitro multicomponent interpenetrating cytoskeletal networks."](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.108101) _Physical Review Letters_, 127.10 (2021): 108101.
 
 Please cite these articles if you find our tools useful.
+## Video Tutorial
+A step-by-step tutorial on running this code on Linux clusters can be found [here](https://www.youtube.com/watch?v=b3jeW9S037E).
 
 ## Breakdown of `microrheology_analyze_1.m`:
 
@@ -49,4 +51,4 @@ The tracked particles in the initial frame are circled and saved as a JPEG in th
 - **Automation:** 
   - `run_tracking.sh` submits a batch job for individual videos.
 
-We hope this software accelerates your particle tracking endeavors. Feel free to contribute or raise issues on GitHub.
+We hope this software accelerates your particle tracking endeavors. Note that we are not actively maintaining the codes but feel free to 
