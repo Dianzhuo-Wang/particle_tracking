@@ -48,7 +48,9 @@ The tracked particles in the initial frame are circled and saved as a JPEG in th
   - `save_first_frame.m` saves the inaugural frame of a TIFF for parameter determination related to particle recognition.
   - `Analyze_first_fig.m` highlights the particles within a single frame.
   
-- **Automation:** 
-  - `run_tracking.sh` submits a batch job for individual videos.
+- **Automation Tools:** 
+  - `run_tracking.sh`: This script submits single batch job for individual video.
+  - `all.sh`: Utilizing the paths and parameters outlined in 'track', this script submits a series of batch jobs for all videos under a folder.
+
 
 We hope this software accelerates your particle tracking endeavors. While we aren't actively maintaining the codes, we welcome your questions and feedback. Feel free to contact me at johnwang [at] g [dot] harvard [dot] edu.
