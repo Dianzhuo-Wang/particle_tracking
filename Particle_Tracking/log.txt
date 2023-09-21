@@ -1,0 +1,36 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Initialize
+------
+Please check paths below correct before start. If not, quit and change it.
+Code Folder:/n/scratch2/ys258/lxytest/Particle_Tracking
+Raw Data Folder:/n/scratch2/ys258/20180824
+Video Name:20180824_A2V0p5_1umBSA_2.tif
+Path to save processing data:/n/scratch2/ys258/20180824/20180824_A2V0p5_1umBSA_2
+Time interval between each frame: 
+Total frame number:
+---
+Parameters now:
+Size of particle in pixel (Particle_Radius):4
+Minimum brightness (value in matrix) to consider as signal (Imin):6000
+Exclude points with in distance (in pixel) (scale_limit_distance):10
+Radius of gyration uplimit (gyration_radius_uplimit):20
+Eccentricity uplimit (eccentricity_uplimit):0.2
+Minimum ratio of Intensity/pixel to be accepted (IdivRg):300
+---
+Tracking Parameters:
+Maximum displacement between two frame allowed:5
+The minimum length requirement for a trajectory to be retained:20005
+How many consecutive frames a feature is allowed to skip:1
+Parameters saved.
+------
+Import Video

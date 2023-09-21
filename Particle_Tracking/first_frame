@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+/n/app/matlab/2017a/bin/matlab -nodesktop -nosplash -r "run save_first_frame.m; exit;"
