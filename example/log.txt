@@ -1,0 +1,52 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Initialize
+[Warning: Directory already exists.] 
+[> In Parameters_Define (line 20)
+  In microrheology_analyze_1 (line 11)
+  In run (line 86)] 
+------
+Please check paths below correct before start. If not, quit and change it.
+Code Folder:/n/scratch2/ys258/lxytest/Particle_Tracking
+Raw Data Folder:/n/scratch2/ys258/20181009
+Video Name:1.tif
+Path to save processing data:/n/scratch2/ys258/20181009/1
+Time interval between each frame: 
+Total frame number:
+---
+Parameters now:
+Size of particle in pixel (Particle_Radius):6
+Minimum brightness (value in matrix) to consider as signal (Imin):1800
+Exclude points with in distance (in pixel) (scale_limit_distance):10
+Radius of gyration uplimit (gyration_radius_uplimit):20
+Eccentricity uplimit (eccentricity_uplimit):0.2
+Minimum ratio of Intensity/pixel to be accepted (IdivRg):300
+---
+Tracking Parameters:
+Maximum displacement between two frame allowed:5
+The minimum length requirement for a trajectory to be retained:1000
+How many consecutive frames a feature is allowed to skip:5
+Parameters saved.
+------
+Import Video
+{Matrix dimensions must agree.
+
+Error in imread_big_giveNframe_filesave (line 44)
+start_point = stripOffset(1) + (0:1:(Nframes-1)).*stripByteCounts;
+
+Error in microrheology_analyze_1 (line 23)
+imread_big_giveNframe_filesave(TIF_frame_num, RawDataPath);
+
+Error in run (line 86)
+evalin('caller', [script ';']);
+} 
+>> 

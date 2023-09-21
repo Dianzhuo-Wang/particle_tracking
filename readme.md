@@ -1,4 +1,4 @@
-# Particle Tracking for Passive Microrheology in Weitz Lab
+# Particle Tracking for Passive Microrheology 
 
 This particle tracking software was designed to enhance the efficiency of 2-D particle tracking specifically for passive microrheology in Weitz lab. However, it also could be used for other purposes that requires accurate particle tracking. It's based on the MATLAB code originally developed by Prof. Maria Kilfoil and has been further optimized to work more swiftly and effectively, especially with large TIFF files. Notably, this tool outperforms the FIJI tracking package in both speed and accuracy and is fine-tuned to run parallelly on a Linux cluster.
 ## How to Cite
@@ -51,4 +51,4 @@ The tracked particles in the initial frame are circled and saved as a JPEG in th
 - **Automation:** 
   - `run_tracking.sh` submits a batch job for individual videos.
 
-We hope this software accelerates your particle tracking endeavors. Note that we are not actively maintaining the codes but feel free to 
+We hope this software accelerates your particle tracking endeavors. While we aren't actively maintaining the codes, we welcome your questions and feedback. Feel free to contact me at johnwang [at] g [dot] harvard [dot] edu.

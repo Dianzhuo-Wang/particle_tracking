@@ -1,0 +1,4 @@
+#!/bin/bash
+
+module load matlab
+matlab -nodesktop -nosplash -r "run save_first_frame.m; exit;"
